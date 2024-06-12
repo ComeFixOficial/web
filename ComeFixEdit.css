@@ -54,12 +54,7 @@ header a {
     transition: 300ms;
 }
 .Quienes-somos{
-    background: linear-gradient(
-        180deg,
-        rgb(117, 0, 0) 0%,
-        rgb(145, 2, 2) 50%,
-        rgb(117, 0, 0) 100%
-    );
+    background-color: #BBBBBB;
     display: flex;
     justify-content: space-between;
 }
