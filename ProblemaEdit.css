@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    background-image: url('/Imagenes/FondoForm.png');
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    padding: 10px;
+    height: 60px;
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.NombreLogo{
+    color: white;
+    padding-left: 20px;;
+}
+.logo img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.LinksInicio a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 10px;
+    font-weight: 100;
+    font-size: 13px;
+}
+.LinksInicio a:hover{
+   color: brown;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-register{
+    width: 400px;
+    background-color: rgb(153, 11, 30);
+    padding: 30px;
+    margin: auto;
+    margin-top: 65px;
+    border-radius: 10px;
+    box-shadow: 7px 13px 37px #000;
+}
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: 'arial';
+    color: white;
+    text-align: center;
+    
+}
+.form-register p{
+    text-align: center;
+    font-family: 'calibri';
+    color: white;
+}
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+.form-register .BotonEnviar{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        display: flex;
+        align-items: center;
+        padding-right: 10px; 
+    }
+    .logo img {
+        height: 40px; 
+        border-radius: 50%;
+    }
+    
+    .LinksInicio a {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-right: 5px; 
+        padding-left: 5px; 
+        font-weight: 100;
+        font-size: 12px; 
+    }
+    
+    .LinksInicio a:hover {
+        color: brown;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .NombreLogo{
+        display: none;
+    }
+    
+    .form-register {
+        width: 90%; 
+        max-width: 300px; 
+        background-color: rgb(153, 11, 30);
+        padding: 20px; 
+        margin: auto;
+        margin-top: 30px; 
+        border-radius: 10px;
+        box-shadow: 7px 13px 37px #000;
+    }
+    
+    .form-register h4 {
+        font-size: 18px; 
+        margin-bottom: 15px; 
+        font-family: 'arial';
+        color: white;
+        text-align: center;
+    }
+    
+    .form-register p {
+        text-align: center;
+        font-family: 'calibri';
+        color: white;
+        font-size: 12px; 
+    }
+    
+    .controls {
+        width: 100%;
+        background: #24303c;
+        padding: 8px;
+        border-radius: 5px;
+        margin-bottom: 12px; 
+        border: 1px solid #1f53c5;
+        font-family: 'calibri';
+        font-size: 14px;
+    }
+    
+    .form-register .BotonEnviar {
+        width: 100%;
+        background: #1f53c5;
+        border: none;
+        padding: 10px; 
+        color: white;
+        margin: 12px 0; 
+        font-size: 14px; 
+    }
+}
