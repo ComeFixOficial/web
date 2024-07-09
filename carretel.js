@@ -1,11 +1,15 @@
-var swiper = new Swiper(".mySwiper",{
+var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     spaceBetween: 80,
     grabCursor: true,
-    loop:true,
-    breakpoints : {
+    loop: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    breakpoints: {
         991: {
-            slidesPerView:3
+            slidesPerView: 3
         }
     }
-})
+});
