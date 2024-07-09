@@ -103,6 +103,14 @@ header a {
     color: #222222;
 }
 
+    /* Puedes personalizar la paginación aquí si lo deseas */
+.swiper-pagination-bullet {
+    background-color: #000;
+}
+.swiper-pagination-bullet-active {
+    background-color: #007bff;
+}
+
 .desktop {
     text-align: center;
     z-index: 1;
