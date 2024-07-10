@@ -75,6 +75,7 @@ header a {
     border: 1px solid #1f53c5;
     font-family: 'calibri';
     font-size: 18px;
+    color: white;
 }
 .form-register .BotonEnviar{
     width: 100%;
